@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -35,4 +35,30 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
+} */
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: #007bff;
+    height: 15vh;
+}
+
+.inputs {
+    width: 80%;
+}
+
+.textarea {
+    height: 20vh;
+    overflow: auto;
+}
+
+.button {
+    width: 40%;
+    padding: 1%;
+   font-weight: 600;
+   background-color: coral;
+   border: 1px solid black;
+   border-radius: 1vw;
 }
